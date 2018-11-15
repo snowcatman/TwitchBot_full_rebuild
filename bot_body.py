@@ -2,7 +2,7 @@ import socket
 import loader
 
 
-# Method for sending a message
+# This function is being used as a Method for sending a message to the user.
 def Send_message(message):
     s.send(("PRIVMSG #" + chan + " :" + message + "\r\n").encode('UTF-8'))
     # print(nick + ": " + message)
